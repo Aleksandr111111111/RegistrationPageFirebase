@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5121369AC1D563ED4725BF0B /* Pods_registrationPageFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D50E5955560BD8BD8010A24 /* Pods_registrationPageFirebase.framework */; };
 		C70B2E70263DE549003E92CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B2E6F263DE549003E92CB /* AppDelegate.swift */; };
 		C70B2E72263DE549003E92CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B2E71263DE549003E92CB /* SceneDelegate.swift */; };
-		C70B2E74263DE549003E92CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B2E73263DE549003E92CB /* ViewController.swift */; };
+		C70B2E74263DE549003E92CB /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B2E73263DE549003E92CB /* AuthenticationController.swift */; };
 		C70B2E77263DE549003E92CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70B2E75263DE549003E92CB /* Main.storyboard */; };
 		C70B2E79263DE54B003E92CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70B2E78263DE54B003E92CB /* Assets.xcassets */; };
 		C70B2E7C263DE54B003E92CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70B2E7A263DE54B003E92CB /* LaunchScreen.storyboard */; };
+		C70B2E84263DE740003E92CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C70B2E83263DE740003E92CB /* GoogleService-Info.plist */; };
+		C70B2E86264035A9003E92CB /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B2E85264035A9003E92CB /* AuthViewController.swift */; };
+		C70B2E88264035BE003E92CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B2E87264035BE003E92CB /* LoginViewController.swift */; };
+		C70B2E8A26403603003E92CB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B2E8926403603003E92CB /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68D63B354720C749473EABA2 /* Pods-registrationPageFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-registrationPageFirebase.release.xcconfig"; path = "Target Support Files/Pods-registrationPageFirebase/Pods-registrationPageFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		77D239D597415FC9A85D1F2D /* Pods-registrationPageFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-registrationPageFirebase.debug.xcconfig"; path = "Target Support Files/Pods-registrationPageFirebase/Pods-registrationPageFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		8D50E5955560BD8BD8010A24 /* Pods_registrationPageFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_registrationPageFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70B2E6C263DE549003E92CB /* registrationPageFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = registrationPageFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70B2E6F263DE549003E92CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C70B2E71263DE549003E92CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C70B2E73263DE549003E92CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C70B2E73263DE549003E92CB /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
 		C70B2E76263DE549003E92CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C70B2E78263DE54B003E92CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C70B2E7B263DE54B003E92CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C70B2E7D263DE54B003E92CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70B2E83263DE740003E92CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C70B2E85264035A9003E92CB /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		C70B2E87264035BE003E92CB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C70B2E8926403603003E92CB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5121369AC1D563ED4725BF0B /* Pods_registrationPageFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B16D97971BFFF5C1DFE392AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D50E5955560BD8BD8010A24 /* Pods_registrationPageFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C70B2E63263DE549003E92CB = {
 			isa = PBXGroup;
 			children = (
 				C70B2E6E263DE549003E92CB /* registrationPageFirebase */,
 				C70B2E6D263DE549003E92CB /* Products */,
+				D465A76A113822339B3CB265 /* Pods */,
+				B16D97971BFFF5C1DFE392AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,26 @@
 			children = (
 				C70B2E6F263DE549003E92CB /* AppDelegate.swift */,
 				C70B2E71263DE549003E92CB /* SceneDelegate.swift */,
-				C70B2E73263DE549003E92CB /* ViewController.swift */,
+				C70B2E73263DE549003E92CB /* AuthenticationController.swift */,
+				C70B2E85264035A9003E92CB /* AuthViewController.swift */,
+				C70B2E87264035BE003E92CB /* LoginViewController.swift */,
+				C70B2E8926403603003E92CB /* SignInViewController.swift */,
 				C70B2E75263DE549003E92CB /* Main.storyboard */,
 				C70B2E78263DE54B003E92CB /* Assets.xcassets */,
 				C70B2E7A263DE54B003E92CB /* LaunchScreen.storyboard */,
 				C70B2E7D263DE54B003E92CB /* Info.plist */,
+				C70B2E83263DE740003E92CB /* GoogleService-Info.plist */,
 			);
 			path = registrationPageFirebase;
+			sourceTree = "<group>";
+		};
+		D465A76A113822339B3CB265 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77D239D597415FC9A85D1F2D /* Pods-registrationPageFirebase.debug.xcconfig */,
+				68D63B354720C749473EABA2 /* Pods-registrationPageFirebase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C70B2E80263DE54B003E92CB /* Build configuration list for PBXNativeTarget "registrationPageFirebase" */;
 			buildPhases = (
+				6D28DDC124E90ECBF1538632 /* [CP] Check Pods Manifest.lock */,
 				C70B2E68263DE549003E92CB /* Sources */,
 				C70B2E69263DE549003E92CB /* Frameworks */,
 				C70B2E6A263DE549003E92CB /* Resources */,
+				BFE374EDEDBF78F6D4B6FD56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70B2E7C263DE54B003E92CB /* LaunchScreen.storyboard in Resources */,
+				C70B2E84263DE740003E92CB /* GoogleService-Info.plist in Resources */,
 				C70B2E79263DE54B003E92CB /* Assets.xcassets in Resources */,
 				C70B2E77263DE549003E92CB /* Main.storyboard in Resources */,
 			);
@@ -132,13 +171,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D28DDC124E90ECBF1538632 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-registrationPageFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE374EDEDBF78F6D4B6FD56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-registrationPageFirebase/Pods-registrationPageFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-registrationPageFirebase/Pods-registrationPageFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-registrationPageFirebase/Pods-registrationPageFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C70B2E68263DE549003E92CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70B2E74263DE549003E92CB /* ViewController.swift in Sources */,
+				C70B2E86264035A9003E92CB /* AuthViewController.swift in Sources */,
+				C70B2E74263DE549003E92CB /* AuthenticationController.swift in Sources */,
+				C70B2E8A26403603003E92CB /* SignInViewController.swift in Sources */,
 				C70B2E70263DE549003E92CB /* AppDelegate.swift in Sources */,
+				C70B2E88264035BE003E92CB /* LoginViewController.swift in Sources */,
 				C70B2E72263DE549003E92CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +367,7 @@
 		};
 		C70B2E81263DE54B003E92CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D239D597415FC9A85D1F2D /* Pods-registrationPageFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +381,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = avkylikov.registrationPageFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C70B2E82263DE54B003E92CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D63B354720C749473EABA2 /* Pods-registrationPageFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +401,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = avkylikov.registrationPageFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
