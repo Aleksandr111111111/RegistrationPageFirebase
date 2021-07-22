@@ -19,9 +19,11 @@ class SignInViewController: UIViewController {
     
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         errorLabel.alpha = 0
+        
 
         // Do any additional setup after loading the view.
     }
@@ -55,7 +57,7 @@ class SignInViewController: UIViewController {
                 db.collection("users").addDocument(data: [
                     "firstName": self.firstNameTextField.text!,
                     "lastName": self.lastNamTextField.text!,
-                    "uid": result!.user.uid
+                    "uid": result?.user.uid as Any
                 ]) {(error) in
                     
                 if error != nil {
